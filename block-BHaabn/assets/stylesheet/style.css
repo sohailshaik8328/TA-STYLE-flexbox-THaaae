@@ -1,0 +1,129 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    font-family: 'Open Sans', sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.header{
+    background-color: rgb(34,41,70);
+    width: 100%;
+    height: 60px;
+    display: flex;
+}
+.header img{
+    width: 120px;
+    margin-left: 30px;
+    
+}
+.nav{
+    margin-left: 800px;
+    padding-top: 20px;
+
+}
+.nav a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+    /* color: white; */
+    /* padding-top: 20px; */
+    margin: 10px;
+
+}
+.home{
+    color: #FFFFFF;
+}
+.about{
+    color: #FFFFFF;
+}
+.gallery{
+    color: rgb(90,188,120);
+}
+
+.section-1{
+    width: 90%;
+    height: 600px;
+    margin: auto;
+    margin-top: 50px;
+}
+.section-1 h1{
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: brown;
+}
+.article-1{
+    width: 100%;
+    /* height: 300px; */
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.article-1 img{
+    width: 330px;
+}
+.footer{
+    background-color: rgb(34,41,70);
+    width: 100%;
+    height: 70px;
+    display: flex;
+}
+.footer p{
+    font-size: 13px;
+    color: white;
+    font-weight: bold;
+    padding-left: 40px;
+    padding-top: 30px;
+
+}
+.media-links{
+    margin-left: 1000px;
+    padding-top: 30px;
+}
+.media-links img{
+    width: 20px;
+    /* margin: 10px; */
+    margin-left: 10px;
+}
