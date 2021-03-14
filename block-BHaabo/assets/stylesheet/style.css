@@ -1,0 +1,246 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    font-family: 'Open Sans', sans-serif;
+
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.header{
+    background-color: rgb(34,41,70);
+    width: 100%;
+    height: 60px;
+    display: flex;
+}
+.logo{
+    width: 120px;
+    margin-left: 20px;
+    height: 50px;
+    margin-top: 5px;
+
+}
+.nav {
+ margin-left: 930px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ color: white;
+}
+.nav img{
+    width: 20px;
+    margin-left: 10px;
+}
+.nav p{
+    font-size: 13px;
+    margin-left: 30px;
+}
+.main{
+    width: 80%;
+    height: 600px;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+}
+.sec-left{
+    width: 30%;
+    height: 100%;
+    background-color:rgb(163,202,234) ;
+    border-radius: 10px;
+}
+.sec-right{
+    width: 60%;
+    height: 100%;
+    margin-left: 50px;
+    border-radius: 10px;
+
+}
+.one{
+    width: 120px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 40px;
+    
+}
+.one img{
+    width: 15px;
+}
+.one p{
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 15px;
+    letter-spacing: 1px;
+
+}
+
+.two{
+    width: 120px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    margin-top: 10px;
+    border: 2px solid rgb(241,121,42);
+    border-radius: 5px;
+    /* width: 200px; */
+    /* padding-right: 50px; */
+    
+}
+
+.p2{
+    margin-left: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+.three{
+    width: 120px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 34px;
+    margin-top: 10px;
+
+
+}
+.p3,.p4,.p5{
+    margin-left: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+.four{
+    width: 120px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.five{
+    width: 120px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 28px;
+
+}
+.btn{
+   margin-top: 280px;
+   width: 290px;
+   height: 40px;
+   border-radius: 5px;
+   margin-left: 10px;
+   border: none;
+   outline: none;
+   text-align: left;
+   padding-left: 20px;
+}
+.logout{
+    width: 12px;
+    margin-left: 10px;
+}
+.sec-right{
+    background-color: rgb(242,248,253);
+}
+.sec-right img{
+    width: 600px;
+    padding: 10px 10px 0px 10px;
+}
+.sec-right h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(34,41,70);
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.sec-right p{
+    font-size: 13px ;
+    color: rgba(0, 0, 0, 0.842);
+    line-height: 20px;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.read-more{
+    width: 120px;
+    height: 35px;
+    outline: none;
+    background-color: rgb(89,183,103);
+    color: #FFFFFF;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+}
+.footer{
+    width: 100%;
+    height: 70px;
+    margin-top: 20px;
+    background-color: rgb(34,41,70);
+    display: flex;
+}
+.footer p{
+    font-size: 13px;
+    color: #FFFFFF;
+    margin-left: 50px;
+    padding-top: 30px;
+}
+.footer img{
+    width: 20px;
+    margin-left: 10px;
+
+}
+.media-links{
+    margin-left: 1000px;
+    margin-top: 30px;
+}
